@@ -1,0 +1,252 @@
+
+
+@media  only screen and  (max-width:640px) {
+  body{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    font-family: Noto-sans, sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  html{
+    width:100%;
+  }
+
+  /*TOP ICONS*/
+
+  .topIcons{
+    margin-left: 0;
+    clear:both;
+  }
+
+  .back_btn{
+    margin-top:6%;
+    margin-left: 7%;
+    height:1.8em;
+    width:1em;
+    float:left;
+
+  }
+
+  .buscaCompi{
+    justify-content: center;
+    left:30%;
+    right:40%;
+    margin-top:1%;
+    margin-right:32%;
+    float:right;
+  }
+
+  .buscaCompi h4{
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  /*SEARCH BAR*/
+
+.search {
+  width: 25rem;
+  height: 6em;
+  left:16%;
+  right:20%;
+
+  position: relative;
+}
+
+.searchbar {
+  color:#F9F9FF;
+  margin-top: 3em;
+  font-size: 1.2em;
+  width: 16em;
+  height: 1em;
+  border: none;
+  outline: none;
+  border-radius: 10rem;
+  box-shadow: 0 1rem 2rem rgba(black, .1);
+  padding: 1em;
+  // position: relative;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.search img {
+  height: 1em;
+}
+
+.button {
+  height: 2rem;
+}
+
+
+.button:hover {
+  cursor: pointer;
+}
+
+.searchbar::placeholder {
+  opacity: .5;
+}
+
+
+  /*BUTTONS NAV MENU*/
+
+  .nav{
+    margin:auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 26em;
+    width:100%;
+    text-align: center;
+    left:50%;
+  }
+
+  .nav button{
+    display: inline-block;
+    margin-top:40%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height:152px;
+    width: 152px;
+
+  }
+
+  h3{
+    float:left;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+
+  /*buttons*/
+  button {
+
+}
+
+  .nav .libre img{
+    height:92px;
+    width:92px;
+  }
+
+  /* MAIN */
+
+  .main{
+    margin:auto;
+    margin-left:4%;
+    margin-right:4%;
+    color:#333333;
+  }
+
+  .main button{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    left:0;
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+
+  }
+
+  .main .clasesPopu{
+    align-content: center;
+    position:relative;
+
+  }
+
+
+
+  .clasesPopu button{
+    height:226px;
+    width: 186px;
+    border-radius: 10px;
+    margin-bottom: 2.2em;
+  }
+
+  .clasesPopu img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:0;
+
+
+
+  }
+
+  .clasesPopu button h5{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#333333;
+    margin-left:16px;
+    margin-bottom:0.5em;
+    text-align: left;
+    padding-top: 0.4em;
+    margin-top: 0.4em;
+  }
+
+  .text{
+    padding:0;
+    margin-top: 10px;
+  }
+
+  h6 {
+    font-size: 1em;
+    font-weight: 600;
+    color:#333333;
+    margin-top:2px;
+    margin-left:50px;
+    padding-bottom:4px;
+    text-align: left;
+  }
+
+  h3{
+    margin-left: 1.1em;
+  }
+
+
+  .clase1{
+    margin-top: 0.5em;
+    float:left;
+    width:94%;
+    height:600px;
+    margin-left:4%;
+
+  }
+
+
+  /* footer*/
+
+  .footer{
+    width:6.5em;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    padding-top:3em;
+    position: relative;
+    left:49%;
+    right:51%;
+    }
+
+  .footer img{
+    width:2em;
+    padding-bottom: 2em;
+  }
+
+
+
+
+
+
+
+
+}

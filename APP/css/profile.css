@@ -1,0 +1,106 @@
+
+
+@media  only screen and  (max-width:640px) {
+  body{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-position: 0 -220px;
+    font-family: Noto-sans, sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  /*TOP ICONS*/
+
+  .topContainer{
+    margin-bottom: 3em;
+  }
+  .topIcons{
+  }
+  .back_btn{
+    margin-top:6%;
+    margin-left: 7%;
+    height:1.8em;
+    width:1em;
+    float:left;
+
+  }
+
+  .buscaCompi{
+    justify-content: center;
+    left:30%;
+    right:40%;
+    margin-top:1%;
+    margin-right:32%;
+    float:right;
+  }
+
+  .buscaCompi h4{
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+
+  /*BUTTONS NAV MENU*/
+
+  .nav{
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+    height:180px;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ;
+    left:50%;
+    margin-left:36%;
+  }
+
+
+  /*buttons*/
+  .nav {
+
+}
+  h3{
+    font-size: 1.6em;
+    font-weight: 600;
+    color:#333333;
+  }
+
+  .nav img{
+    height:92px;
+    width:92px;
+    margin-top: 2.6em;
+  }
+
+
+  /* MAIN */
+
+  .main{
+    margin:auto;
+    margin-left:4%;
+    margin-right:4%;
+    color:#333333;
+  }
+
+  .main .horarioPro{
+    height:10em;
+  }
+
+  .main .clasesPro{
+    height: 12em;
+  }
+
+  .main .eventosPro{
+    height: 12em;
+  }
+
+
+
+
+}
