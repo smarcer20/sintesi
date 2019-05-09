@@ -1,0 +1,281 @@
+
+  body{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-position: 0 -220px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  /*TOP ICONS*/
+
+  .topContainer{
+    margin-bottom: 3em;
+  }
+  .topIcons{
+    width:100%;
+  }
+  .back_btn{
+    margin-top:6%;
+    margin-left: 7%;
+    height:1.8em;
+    width:1em;
+    float:left;
+
+  }
+
+  .chat img{
+    float:right;
+    margin-top:10%;
+    margin-right: 5%;
+    height:65px;
+    width:65px;
+    position: relative;
+    left:70%;
+    right:10%;
+
+  }
+
+  .buscaCompi{
+    justify-content: center;
+    left:24%;
+    right:46%;
+    margin-top:1%;
+    margin-right:45%;
+    float:right;
+  }
+
+  .buscaCompi h4{
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  .adam{
+    margin-left: 6%;
+  }
+
+  /* MAIN */
+
+  .main{
+    margin:auto;
+    margin-left:4%;
+    margin-right:4%;
+    color:#333333;
+  }
+
+  /* NOTE: HORARIO SVG */
+
+  .main .horarioPro{
+    height:10em;
+  }
+
+  .horario img{
+    width:90%;
+    margin-left: 1em;
+  }
+
+
+  .main .clasesPro{
+    height: 22em;
+  }
+
+  .main .eventosPro{
+    height: 22em;
+  }
+
+  .clase1{
+    margin:auto;
+    display: inline-block;
+    height: 12.5em;
+    width:90%;
+    text-align: center;
+    left:50%;
+
+  }
+
+  .topContainer button{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    left:0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    border:none;
+
+  }
+
+  .clase1 button{
+    border-radius: 10px;
+    margin-bottom: 2.2em;
+
+    height:218px;
+    width: 182px;
+    border-radius: 10px;
+    margin-bottom:20%;
+  }
+
+  .clase1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:0;
+  }
+  .clase1 button h5{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#333333;
+    margin-bottom:0.5em;
+    text-align: center;
+    padding-top: 0.4em;
+    margin-top: 0.4em;
+  }
+  h6 {
+    font-size: 1.1em;
+    font-weight: 400;
+    color:#333333;
+    margin-top:4px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    display: inline-block;
+    clear:both;
+  }
+
+  .clasesPro button{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    left:0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    border:none;
+    height:234px;
+    width: 182px;
+    border-radius: 10px;
+    margin-bottom:10%;
+
+  }
+  .clasesPro button h5{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#333333;
+    margin-top:4px;
+    margin-right:0.8em;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 0.2em;
+  }
+
+  .clasesPro h6 {
+    font-size: 1.1em;
+    font-weight: 400;
+    color:#333333;
+    margin-top:4px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    display: inline-block;
+    clear:both;
+  }
+
+  .eventosPro button{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    left:0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    border:none;
+    height:234px;
+    width: 182px;
+    border-radius: 10px;
+    margin-bottom:10%;
+
+  }
+  .eventosPro button h5{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#333333;
+    margin-top:4px;
+    margin-right:0.8em;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 0.2em;
+  }
+
+  .eventosPro h6 {
+    font-size: 1.1em;
+    font-weight: 400;
+    color:#333333;
+    margin-top:4px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    display: inline-block;
+    clear:both;
+  }
+  /* footer */
+
+  .footer{
+    width:6.5em;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    padding-top:3em;
+    position: absolute;
+    left:49%;
+    right:51%;
+    }
+
+  .footer img{
+    width:2em;
+    padding-bottom: 2em;
+  }
+  @media  (min-width:640px) {
+    body{
+      background-image: url("../img/background_large.jpg");
+      background-repeat:no-repeat;
+      font-family:'Noto Sans', sans-serif;
+      color:#F9F9FF;
+      background-color: #DEDEE2;
+
+    }
+
+    .wrapper{
+      width:40.063em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+  }
+
+  @media  (min-width:1130px) {
+    body{
+      background-repeat: no-repeat;
+
+    }
+
+    .wrapper{
+      width:64em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+  }
