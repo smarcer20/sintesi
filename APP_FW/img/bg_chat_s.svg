@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="641px" height="961px" viewBox="0 0 641 961" enable-background="new 0 0 641 961" xml:space="preserve">
+<path fill="#DEDEE2" d="M654.498,963.022c0,8.271-7.269,14.978-16.233,14.978H-1.659c-8.965,0-16.232-6.706-16.232-14.978V-5.501
+	c0-8.272,7.267-14.977,16.232-14.977h639.923c8.965,0,16.233,6.705,16.233,14.977V963.022z"/>
+<ellipse opacity="0.4" fill="#B3B3B3" cx="294.539" cy="-176.627" rx="470.373" ry="321.062"/>
+<ellipse opacity="0.4" fill="#B3B3B3" cx="340.707" cy="-179.292" rx="470.373" ry="321.062"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="568.5225" y1="-602.436" x2="3.8422" y2="345.9938">
+	<stop  offset="0" style="stop-color:#EFCB67"/>
+	<stop  offset="1" style="stop-color:#F0A868"/>
+</linearGradient>
+<ellipse fill="url(#SVGID_1_)" cx="315.003" cy="-176.627" rx="470.373" ry="321.062"/>
+<circle opacity="0.1" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-miterlimit="10" cx="596.765" cy="-188.617" r="170.522"/>
+<circle opacity="0.1" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-miterlimit="10" cx="649.678" cy="-314.064" r="170.522"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="3.267" cy="-0.554" r="48.32"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="561.666" cy="45.685" r="12.345"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="559.533" cy="14.826" r="7.046"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="523.39" cy="29.832" r="19.002"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="195.017" cy="-49.278" r="12.345"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="192.885" cy="-26.848" r="7.046"/>
+<circle opacity="0.1" fill="#FFFFFF" cx="156.742" cy="-65.13" r="19.001"/>
+<g>
+	<defs>
+		<ellipse id="SVGID_2_" cx="315.003" cy="-176.627" rx="470.373" ry="321.062"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  overflow="visible"/>
+	</clipPath>
+	
+		<ellipse opacity="0.1" clip-path="url(#SVGID_3_)" fill="none" stroke="#FFFFFF" stroke-width="29" stroke-miterlimit="10" cx="14.786" cy="-0.554" rx="130.113" ry="128.761"/>
+</g>
+<rect x="3.267" y="-8.77" fill="none" width="639.458" height="1065.766"/>
+</svg>

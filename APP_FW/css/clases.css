@@ -264,7 +264,7 @@
 
     }
     .topIcons{
-      margin-right: 10%;
+      margin-right: 6%;
       clear:both;
     }
     .search {
@@ -341,20 +341,20 @@
 
     }
     .topIcons{
-      margin-right: 16%;
+      margin-right: 11.8%;
       clear:both;
     }
     .buscaCompi{
       margin-top:3%;
     }
     .search {
-      left:32%;
+      left:30%;
       right:20%;
       width:60em;
     }
     .searchbar {
       margin-top: 5em;
-      font-size: 1.3em;
+      font-size: 1.22em;
     }
     .search img {
 
@@ -375,8 +375,8 @@
 
     }
     .nav .libre img{
-      height:132px;
-      width:132px;
+      height:152px;
+      width:152px;
     }
 
     h3{

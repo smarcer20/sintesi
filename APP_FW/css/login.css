@@ -1,0 +1,223 @@
+
+  body{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    font-family:  'Noto Sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  html{
+    width:100%;
+  }
+
+  /*TOP ICONS*/
+
+h1{
+  display: flex;
+  flex: 0 1 50vw;
+  height:28vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 42%;
+
+
+}
+
+  /*SEARCH BAR*/
+
+.search {
+  width: 25rem;
+  height: 18em;
+  left:15%;
+  right:22%;
+  position: relative;
+}
+
+.searchbar {
+  color:#F9F9FF;
+  margin-top: 2em;
+  font-size: 1.18em;
+  font-weight: bold;
+  color:#f4f4f4;
+  width: 16em;
+  height: 1em;
+  border: none;
+  outline: none;
+  border-radius: 10rem;
+  box-shadow: 0 1rem 2rem rgba(black, .1);
+  padding: 1em;
+  position: relative;
+  justify-content: center;
+  background-color: rgba(240, 185, 104, 0.88);
+  text-align: center;
+}
+
+.search img {
+
+    height: 2.3em;
+    margin-bottom: -3%;
+    margin-left: 0.2em;
+}
+
+
+.searchbar::placeholder {
+  opacity: .5;
+}
+
+
+  /*BUTTONS NAV MENU*/
+
+  .nav{
+    margin:auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 6em;
+    width:100%;
+    text-align: center;
+    left:50%;
+    bottom:10%;
+  }
+  .nav img{
+    width:70%;
+  }
+
+  .nav img:hover{
+    width:74%;
+    transition: 1s;
+  }
+
+
+
+
+  @media  (min-width:640px) {
+    body{
+      background-image: url("../img/background_large.jpg");
+      background-repeat:no-repeat;
+      font-family:'Noto Sans', sans-serif;
+      color:#F9F9FF;
+      background-color: #DEDEE2;
+
+    }
+
+    .wrapper{
+      width:40.063em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    h4{
+      display: flex;
+      flex: 0 1 30vw;
+      height:21vh;
+      text-align: center;
+      margin-top: 32%;
+    }
+
+    .search {
+      left:20%;
+      right:20%;
+      width: 28rem;
+    }
+    .searchbar {
+      margin-top: 4.5em;
+      font-size: 1.23em;
+    }
+    .search img {
+
+        height: 2.8em;
+        margin-bottom: -3.5%;
+        margin-left: 0.2em;
+    }
+    .nav{
+      height: 14em;
+    }
+
+
+
+  }
+
+  @media  (min-width:1130px) {
+    body{
+      background-repeat: no-repeat;
+
+    }
+
+    .wrapper{
+      width:64em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    .topIcons{
+      margin-right: 15.5%;
+      clear:both;
+    }
+    .buscaCompi{
+      margin-top:3%;
+    }
+    .search {
+      left:30%;
+      right:20%;
+      width:60em;
+    }
+    .searchbar {
+      margin-top: 5em;
+      font-size: 1.3em;
+    }
+    .search img {
+
+        height: 2.8em;
+        margin-bottom: -1em;
+        margin-left: 0.2em;
+    }
+    .nav{
+      height: 14em;
+    }
+
+    .nav button{
+      margin-right: 0.8em;
+      margin-left: 0.8em;
+      height:216px;
+      width: 216px;
+      margin-top:23%;
+
+    }
+    .nav .libre img{
+      height:132px;
+      width:132px;
+    }
+
+    h3{
+      font-size: 1.4em;
+      font-weight: 800;
+    }
+
+    h2{
+      font-size: 1.6em;
+      font-weight: 600;
+    }
+
+    .main{
+      margin-top: 8%;
+    }
+
+    .clasesPopu button{
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    }
+    .clase1{
+      width:98%;
+      height:600px;
+      margin-left:2%;
+
+    }
+
+  }

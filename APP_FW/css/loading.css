@@ -1,22 +1,11 @@
 body{
-
+  background-image: url(../img/bg_load.svg);
   color:#F9F9FF;
   background-color: #DEDEE2;
 
 }
 
-.image {
-  display:flex;
-  flex:0 1 40vw;
-  height:20vh;
-  justify-content: center;
-  align-items: center;
 
-}
-
-img{
-  height:8vh;
-}
 
 
 /* LOADING DOTS */
@@ -64,3 +53,8 @@ img{
     transform: scale(1.0);
   }
 }
+
+@media  (min-width:640px) {
+  body{
+    background-image: none;
+  }

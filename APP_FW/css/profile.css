@@ -30,7 +30,7 @@
     left:24%;
     right:46%;
     margin-top:1%;
-    margin-right:45%;
+    margin-right:40.5%;
     float:right;
   }
 
@@ -247,6 +247,26 @@
       margin-right: auto;
 
     }
+    .myGym{
+      top:6%;
+      line-height: 80%;
+      width:40.063em;
+    }
+    .topIcons{
+      margin-right: 5%;
+      clear:both;
+    }
+    .horario img{
+      width:88%;
+      margin-left: 1.4em;
+    }
+    .clase1{
+      margin-top: 2.5%;
+    }
+    .clase1 button{
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    }
 
   }
 
@@ -262,6 +282,40 @@
       margin-left: auto;
       margin-right: auto;
 
+    }
+    .myGym{
+      top:6%;
+      line-height: 80%;
+      width:40.063em;
+    }
+    .topIcons{
+      margin-right: 5%;
+      clear:both;
+    }
+    .horario img{
+      width:60%;
+
+    }
+
+    .clase1 {
+      margin-top: 2.5%;
+    }
+    .clase1 button{
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    }
+    button {
+    height:250px;
+    width: 200px;
+    }
+    button h4{
+      font-size: 1.8em;
+    }
+
+
+    .main{
+      margin-left:18%;
+      margin-right:2%;
     }
 
   }

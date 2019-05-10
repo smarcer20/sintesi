@@ -262,13 +262,14 @@
 
   }
 
+
   .myGym{
     left:0;
     right:0;
     top:6%;
     text-align: center;
     line-height: 80%;
-    width:40.063em;
+    width:20em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -320,7 +321,9 @@
     top:6%;
     line-height: 80%;
     width:40.063em;
+    z-index: 0;
   }
+
 
   button {
   height:250px;
