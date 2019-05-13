@@ -1,12 +1,15 @@
 body{
-  background-image: url(../img/bg_load.svg);
+  
   color:#F9F9FF;
   background-color: #DEDEE2;
 
 }
 
-
-
+/*LOGO*/
+img{
+  width: 22px;
+  height: 22px;
+}
 
 /* LOADING DOTS */
 .spinner {
@@ -15,6 +18,10 @@ body{
   height:100vh;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/negro_naranja.svg);
+  background-size: 122px 122px;
+  background-repeat: no-repeat;
+  background-position: 50% 42%;
 }
 
 .spinner div {

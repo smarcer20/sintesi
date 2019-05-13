@@ -189,6 +189,10 @@ h1{
     .nav img{
       width:42%;
     }
+    .nav img:hover{
+      width:46%;
+      transition: 1s;
+    }
 
     .buscador{
       margin-bottom: 6%;
