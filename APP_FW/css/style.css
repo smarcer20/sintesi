@@ -1,6 +1,6 @@
 
   body{
-    background-image: url("../img/background.png");
+    background-image: url("../img/bg_med.svg");
     background-repeat:no-repeat;
     font-family: 'Noto Sans', sans-serif;
     color:#F9F9FF;
@@ -244,18 +244,18 @@
     transition: 2s ease;
   }
 
-@media  (min-width:640px) {
+@media  (min-width:866px) {
   body{
     background-image: url("../img/background_large.jpg");
     background-repeat:no-repeat;
-    font-family: Noto-sans, sans-serif;
+    font-family: 'Noto sans', sans-serif;
     color:#F9F9FF;
     background-color: #DEDEE2;
 
   }
 
   .wrapper{
-    width:40.063em;
+    width:52em;
     display: block;
     margin-left: auto;
     margin-right: auto;
