@@ -250,6 +250,46 @@
     transition: 2s ease;
   }
 
+@media  (min-width:666px){
+  body{
+    background-image: url("../img/background_large.jpg");
+    background-repeat:no-repeat;
+    font-family: 'Noto sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+
+  .myGym{
+    left:0;
+    right:0;
+    top:6%;
+    text-align: center;
+    line-height: 80%;
+    width:20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button {
+  height:220px;
+  width: 170px;
+  }
+  button h4{
+    font-size: 1.4em;
+  }
+  .nav{
+    height: 16em;
+    margin-top:26%;
+  }
+
+  .nav button{
+    margin-right: 0.8em;
+    margin-left: 0.8em;
+  }
+}
+
 @media  (min-width:866px) {
   body{
     background-image: url("../img/background_large.jpg");
