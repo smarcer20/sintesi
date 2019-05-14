@@ -14,14 +14,26 @@
 
   /*TOP ICONS*/
 
-h1{
+h2{
   display: flex;
   flex: 0 1 50vw;
-  height:28vh;
+  height:10vh;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 24%;
+  color:#333333;
+  margin-top: 2%;
+  margin-bottom:0;
+}
+
+h1{
+  display: flex;
+  flex: 0 1 50vw;
+  height:26vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 32%;
 
 
 }
@@ -160,6 +172,10 @@ h1{
       margin-left: auto;
       margin-right: auto;
 
+    }
+
+    h2{
+      height:16vh;
     }
 
     h1{
