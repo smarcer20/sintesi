@@ -1,0 +1,250 @@
+
+  body{
+    background-image: url("../img/background.png");
+    background-repeat:no-repeat;
+    background-position: 0 -220px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  /*TOP ICONS*/
+
+  .topContainer{
+    margin-bottom: 3em;
+  }
+  .topIcons{
+  }
+  .back_btn{
+    margin-top:6%;
+    margin-left: 7%;
+    height:1.8em;
+    width:1em;
+    float:left;
+
+  }
+
+  .buscaCompi{
+    justify-content: center;
+    left:24%;
+    right:46%;
+    margin-top:1%;
+    margin-right:40.5%;
+    float:right;
+  }
+
+  .buscaCompi h4{
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  .adam{
+    margin-left: 6%;
+  }
+
+  /* MAIN */
+
+  .main{
+    margin:auto;
+    margin-left:4%;
+    margin-right:4%;
+    color:#333333;
+  }
+
+  /* NOTE: HORARIO SVG */
+
+  .main .horarioPro{
+    height:10em;
+  }
+
+  .horario embed{
+    width:90%;
+    margin-left: 1em;
+  }
+
+  .main .resenyesPro{
+    height:10em;
+    display:block;
+    margin-top: 26%;
+    margin-bottom: 22em;
+  }
+
+  .resenyes embed{
+    width:90%;
+    margin-left: 1em;
+  }
+
+  .clase1{
+    margin:auto;
+    display: inline-block;
+    height: 12.5em;
+    width:90%;
+    text-align: center;
+    left:50%;
+
+  }
+
+  .topContainer button{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    left:0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    border:none;
+
+  }
+
+  .clase1 button{
+    height:222px;
+    width: 188px;
+    border-radius: 10px;
+    margin-bottom: 2.2em;
+  }
+
+  .clase1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:0;
+  }
+  .clase1 button h5{
+    font-size: 1.4em;
+    font-weight: 600;
+    color:#333333;
+    margin-bottom:0.8em;
+    text-align: center;
+    padding-top: 0.4em;
+    margin-top: 0.4em;
+  }
+
+  .nav{
+    display:block;
+
+
+  }
+
+  .nav img{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+  }
+
+  .nav img:hover{
+    width:74%;
+    transition: 1s;
+  }
+  /* footer */
+
+  .footer{
+    width:6.5em;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    padding-top:3em;
+    position: absolute;
+    left:49%;
+    right:51%;
+    }
+
+  .footer img{
+    width:2em;
+    padding-bottom: 2em;
+  }
+
+
+  @media  (min-width:640px) {
+    body{
+      background-image: url("../img/background_large.jpg");
+      background-repeat:no-repeat;
+      font-family:'Noto Sans', sans-serif;
+      color:#F9F9FF;
+      background-color: #DEDEE2;
+
+    }
+
+    .wrapper{
+      height:70em;
+      width:40.063em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    .topIcons{
+      margin-right: 5%;
+      clear:both;
+    }
+    .horario embed{
+      width:88%;
+      margin-left: 1.4em;
+    }
+    .resenyes embed{
+      width:88%;
+      margin-left: 1.4em;
+    }
+
+
+
+  }
+
+  @media  (min-width:1130px) {
+    body{
+      background-repeat: no-repeat;
+
+    }
+
+    .wrapper{
+      width:70em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .topIcons{
+      margin-right: 5%;
+      clear:both;
+    }
+    .horarioPro{
+      width:50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .horario embed{
+      width:100%;
+    }
+
+    .resenyesPro{
+      width:50%;
+      margin-left: auto;
+      margin-right: auto;
+
+      margin-bottom: 22em;
+
+    }
+
+    .main .horarioPro{
+      height:4em;
+      margin-top: 5%;
+    }
+    .resenyes embed{
+      width:100%;
+    }
+
+
+    .nav img{
+      width:42%;
+    }
+    .nav img:hover{
+      width:46%;
+      transition: 1s;
+    }
+  }

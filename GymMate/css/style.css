@@ -1,0 +1,410 @@
+
+  body{
+    background-image: url("../img/bg_med.svg");
+    background-repeat:no-repeat;
+    font-family: 'Noto Sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+    font-size: 12px;
+
+  }
+
+  /*TOP ICONS*/
+  .topIcons{
+
+  }
+
+  .profile{
+    margin-top:6%;
+    margin-left: 5%;
+    height:70px;
+    width:70px;
+    background-image: url(../img/profile_1.jpg);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    float:left;
+
+  }
+
+  .profile h4{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 105%;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  a { text-decoration: none; color:#F9F9FF;; }
+  a:visited { text-decoration: none; color:#F9F9FF;; }
+  a:hover { text-decoration: none; color:#F9F9FF; }
+  a:focus { text-decoration: none; color:#F9F9FF; }
+  a:hover, a:active { text-decoration: none; color:#F9F9FF;}
+
+  .myGym{
+    position:absolute;
+    left:30%;
+    right:30%;
+    top:6%;
+    text-align: center;
+    line-height: 80%;
+
+  }
+
+  #myGym{
+    border: 2px solid #f5f5f5;
+     border-radius: 50%;
+  }
+
+
+  .myGym h1{
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .myGym h3{
+    font-weight: 200;
+    font-size: 1em;
+  }
+
+
+
+  #myGym{
+    width:8em;
+    height:8em;
+  }
+
+  .chat{
+    float:right;
+    margin-top:6%;
+    margin-right: 5%;
+    height:85px;
+    width:85px;
+
+  }
+  /*BUTTONS NAV MENU*/
+
+  .nav{
+    margin:auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 12.5em;
+    width:100%;
+    text-align: center;
+    left:50%;
+    margin-top:40%;
+  }
+
+  .nav button{
+    display: inline-block;
+
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border:none;
+    transition: background 500ms ease;
+  }
+
+
+  /*buttons*/
+  button {
+  display:inline-block;
+  position: relative;
+  height:120px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  border:none;
+  border-radius: 5px;
+  transition: all 0.2s ;
+  left:0;
+}
+  button h4{
+    font-size: 1.2em;
+    font-weight: 600;
+    color:#333333;
+  }
+
+  .nav .libre:hover{
+    background-color: #cde6ff;
+
+  }
+
+  .nav .clase:hover{
+    background-color: #f7e7ed;
+
+  }
+
+  .nav .eventos:hover{
+    background-color: #d8fada;
+
+  }
+
+  .nav  img{
+    height:60px;
+    width:60px;
+    margin-top: 1.4em;
+
+  }
+
+  /* MAIN */
+
+  .main{
+    margin:auto;
+    margin-left:4%;
+    margin-right:4%;
+    color:#333333;
+    height:24em;
+  }
+
+  .main button{
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: #F9F9FF;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    border:none;
+  }
+
+  .main .clasesPopu{
+    height:18em;
+    width:100%;
+    margin-bottom: 2em;
+
+  }
+
+  .clasesPopu button{
+    height:192px;
+    width: 137px;
+    border-radius: 10px;
+    margin-bottom:10%;
+    border:none;
+
+
+  }
+
+  .clasesPopu img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 137px;
+  }
+
+  .clasesPopu button h5{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#333333;
+    margin-top:4px;
+    margin-right:0.8em;
+    margin-bottom:0;
+    text-align: center;
+    padding-top: 0.2em;
+  }
+
+  h6 {
+    font-size: 1.1em;
+    font-weight: 400;
+    color:#333333;
+    margin-top:4px;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    display: inline-block;
+    clear:both;
+  }
+
+  .clasesPopu{
+    clear: both;
+      }
+
+  .clase1{
+    float:left;
+    margin-right: 1em;
+    margin-left: 10px;
+    top: -20px;
+  }
+
+  .clase2{
+    float:left;
+  }
+
+  /* footer */
+
+  .footer{
+    width:6.5em;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    padding-top:20em;
+    position: absolute;
+    left:47%;
+    right:51%;
+    }
+
+  .footer img{
+    width:2em;
+    padding-bottom: 2em;
+
+  }
+
+  .footer a{
+    transition: 2s ease;
+  }
+
+@media  (min-width:666px){
+  body{
+    background-image: url("../img/background_large.jpg");
+    background-repeat:no-repeat;
+    font-family: 'Noto sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+
+  .myGym{
+    left:0;
+    right:0;
+    top:6%;
+    text-align: center;
+    line-height: 80%;
+    width:20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button {
+  height:220px;
+  width: 170px;
+  }
+  button h4{
+    font-size: 1.4em;
+  }
+  .nav{
+    height: 16em;
+    margin-top:26%;
+  }
+
+  .nav button{
+    margin-right: 0.8em;
+    margin-left: 0.8em;
+  }
+}
+
+@media  (min-width:866px) {
+  body{
+    background-image: url("../img/background_large.jpg");
+    background-repeat:no-repeat;
+    font-family: 'Noto sans', sans-serif;
+    color:#F9F9FF;
+    background-color: #DEDEE2;
+
+  }
+
+  .wrapper{
+    width:52em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+  .myGym{
+    left:0;
+    right:0;
+    top:6%;
+    text-align: center;
+    line-height: 80%;
+    width:20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button {
+  height:220px;
+  width: 170px;
+  }
+  button h4{
+    font-size: 1.4em;
+  }
+  .nav{
+    height: 14em;
+    margin-top:30%;
+  }
+
+  .nav button{
+    margin-right: 0.8em;
+    margin-left: 0.8em;
+  }
+
+  .profile h4{
+    font-size: 1.4em;
+  }
+  .myGym h1{
+    font-size: 2.2em;
+  }
+
+  .myGym h3{
+    font-size: 1.2em;
+  }
+}
+
+@media  (min-width:1130px) {
+  body{
+    background-repeat: no-repeat;
+
+  }
+
+  .wrapper{
+    width:64em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .myGym{
+    top:6%;
+    line-height: 80%;
+    width:40.063em;
+    z-index: 0;
+  }
+
+
+  button {
+  height:250px;
+  width: 200px;
+  }
+  button h4{
+    font-size: 1.8em;
+  }
+  .nav{
+    height: 18em;
+    margin-top:17%;
+  }
+
+  .nav button{
+    margin-right: 2.2em;
+    margin-left: 2.2em;
+  }
+
+  .nav  img{
+    height:112px;
+    width:112px;
+    margin-top: 2.6em;
+
+  }
+
+  .chat{
+    margin-right: 4%;
+  }
+
+  .main{
+    margin-left:10%;
+    margin-right:4%;
+  }
+}
