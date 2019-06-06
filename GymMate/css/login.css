@@ -1,6 +1,6 @@
 
   body{
-    background-image: url("../img/background_large.jpg");
+    background-image: url("../img/BACKGROUND_large.jpg");
     background-repeat:no-repeat;
     font-family:  'Noto Sans', sans-serif;
     color:#F9F9FF;
@@ -129,7 +129,7 @@ a:visited{
 
   @media  (min-width:866px) {
     body{
-      background-image: url("../img/background_large.jpg");
+      background-image: url("../img/BACKGROUND_large.jpg");
       background-repeat:no-repeat;
       font-family:'Noto Sans', sans-serif;
       color:#F9F9FF;

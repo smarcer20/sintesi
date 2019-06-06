@@ -1,6 +1,6 @@
 
   body{
-    background-image: url("../img/background.png");
+    background-image: url("../img/BACKGROUND.png");
     background-repeat:no-repeat;
     background-position: 0 -220px;
     font-family: 'Noto Sans', sans-serif;
@@ -76,7 +76,7 @@
     margin:auto;
     display: inline-block;
     height: 12.5em;
-    width:90%;
+    width:85%;
     text-align: center;
     left:50%;
 
@@ -98,8 +98,8 @@
   }
 
   .clase1 button{
-    height:176px;
-    width: 137px;
+    height:166px;
+    width: 127px;
     border-radius: 10px;
     margin-bottom: 2.2em;
   }
@@ -108,7 +108,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom:0;
-    width: 137px;
+    width: 127px;
 
   }
   .clase1 button h5{
@@ -144,8 +144,8 @@
     border-radius: 10px;
     box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
     border:none;
-    height:205px;
-    width: 137px;
+    height:200px;
+    width: 127px;
     border-radius: 10px;
     margin-bottom:10%;
     float:left;
@@ -187,7 +187,7 @@
     box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
     border:none;
     height: 205px;
-    width: 137px;
+    width: 127px;
     border-radius: 10px;
     margin-bottom:10%;
     float: left;
@@ -236,7 +236,7 @@
 
   @media  (min-width:640px) {
     body{
-      background-image: url("../img/background_large.jpg");
+      background-image: url("../img/BACKGROUND_large.jpg");
       background-repeat:no-repeat;
       font-family:'Noto Sans', sans-serif;
       color:#F9F9FF;
@@ -305,8 +305,8 @@
       margin-top: 2.5%;
     }
     .clase1 button{
-    margin-left: 1.8em;
-    margin-right: 1.8em;
+    margin-left: 1.4em;
+    margin-right: 1.4em;
     }
     button {
     height:250px;

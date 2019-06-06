@@ -23,12 +23,11 @@ body{
 }
 
 .back_btn{
-  margin-top:6%;
+  margin-top:-12%;
   margin-left: 7%;
   height:1.8em;
   width:1em;
   float:left;
-  padding-left: 0;
 
 }
 h2 {
@@ -55,7 +54,7 @@ margin-top: 30px;
   height:80%;
   margin-left:5%;
   margin-right: 5%;
-  margin-top: 24%;
+  margin-top: 14%;
 }
 
 .main img{
@@ -76,11 +75,11 @@ margin-top: 30px;
   margin-left: 42%;
   margin-right: 52%;
   position: absolute;
- bottom: 10px;
+  bottom: 10px;
   }
 
 .footer img{
-  width:2em;
+  width: 2em;
   padding-bottom: 2em;
 }
 

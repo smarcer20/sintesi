@@ -1,6 +1,6 @@
 
   body{
-    background-image: url("../img/background.png");
+    background-image: url("../img/BACKGROUND.png");
     background-repeat:no-repeat;
     background-position: 0 -220px;
     font-family: 'Noto Sans', sans-serif;
@@ -41,7 +41,7 @@
   .buscaCompi{
     justify-content: center;
     left:24%;
-    right:36%;
+    right:46%;
     margin-top:1%;
     margin-right:35%;
     float:right;
@@ -114,7 +114,7 @@
     border-radius: 10px;
     margin-bottom: 2.2em;
 
-    height:166px;
+    height:165px;
     width: 130px;
     border-radius: 10px;
     margin-bottom:20%;
@@ -200,7 +200,7 @@
     border-radius: 10px;
     box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
     border:none;
-    height:192px;
+    height:200px;
     width: 130px;
     border-radius: 10px;
     margin-bottom:10%;
@@ -247,7 +247,7 @@
   }
   @media  (min-width:640px) {
     body{
-      background-image: url("../img/background_large.jpg");
+      background-image: url("../img/BACKGROUND_large.jpg");
       background-repeat:no-repeat;
       font-family:'Noto Sans', sans-serif;
       color:#F9F9FF;

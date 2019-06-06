@@ -1,6 +1,6 @@
 
   body{
-    background-image: url("../img/background.png");
+    background-image: url("../img/BACKGROUND.png");
     background-repeat:no-repeat;
     font-family:  'Noto Sans', sans-serif;
     color:#F9F9FF;
@@ -33,7 +33,7 @@
     left:30%;
     right:40%;
     margin-top:1%;
-    margin-right:28%;
+    margin-right:20%;
     float:right;
   }
 
@@ -49,7 +49,6 @@
   height: 6em;
   left:15%;
   right:20%;
-
   position: relative;
 }
 
@@ -171,7 +170,7 @@
   }
 
   .clasesPopu button{
-    height:192px;
+    height:200px;
     width: 130px;
     border-radius: 10px;
     margin-bottom:10%;
@@ -235,7 +234,7 @@
     align-items: center;
     padding-top:3em;
     position: relative;
-    left:49%;
+    left:46%;
     right:51%;
     }
 
@@ -246,7 +245,7 @@
 
   @media  (min-width:640px) {
     body{
-      background-image: url("../img/background_large.jpg");
+      background-image: url("../img/BACKGROUND_large.jpg");
       background-repeat:no-repeat;
       font-family:'Noto Sans', sans-serif;
       color:#F9F9FF;
